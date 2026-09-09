@@ -1,11 +1,12 @@
-# This program adds two numbers
+# This program finds the square root of a number
+
+import math
 
 
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+num = float(input("Enter a number: "))
 
 
-subtraction = num1 - num2
+sqrt = math.sqrt(num)
 
 
-print("The subtraction is:", subtraction)
+print("The square root of", num, "is:", sqrt)
